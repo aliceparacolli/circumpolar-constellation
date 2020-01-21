@@ -1,0 +1,138 @@
+svg {
+  background-color: transparent;
+  width: 80%;
+  height: 80%;
+  position: fixed;
+  top: 10%;
+  left: 35%;
+  float: right;
+}
+
+h2 {
+  position: relative;
+  top: 20%;
+  left: 5.5%;
+  width: 30%;
+  height: 30%;
+  color: #4579F5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 50;
+  font-size: 12px;
+}
+
+p {
+  width: 450px;
+}
+
+#text {
+  position: relative;
+  top: 20%;
+  left: 10%;
+  width: 30%;
+  height: 30%;
+  background-color: transparent;
+  font-size: 12px;
+}
+
+#title_text {
+  position: relative;
+  top: 5%;
+  left: 5%;
+  width: 70%;
+  height: 30%;
+  background-color: transparent;
+  color: #2f4b8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 26px;
+  padding: 5px;
+}
+
+#instructions {
+  position: relative;
+  top: 12%;
+  left: 5%;
+  width: 50%;
+  height: 30%;
+  background-color: transparent;
+  color: #2f4b8f;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+}
+
+
+
+body {
+  background-color: #001111;
+}
+
+.constellation_name {
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-family: 'Gelasio', serif;
+    font-size: 16px;
+    color: #019ab4;
+    margin: 5px;
+
+}
+
+.constellation_mythology {
+    font-family: 'Open Sans', sans-serif;
+    color: #8FAAB9;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    margin: 5px;
+    font-size: 12px;
+
+}
+
+td, th {
+  /*border: 1px solid #ddd;*/
+  text-align: center;
+  background: #0E1621;
+  padding: 13px;
+}
+
+th {
+color: #4579F5;
+}
+
+table {
+  position: relative;
+  left: 5%;
+}
+
+.star_name {
+      font-family: 'Gelasio', serif;
+      font-size: 16px;
+      color: #019ab4;
+      position: relative;
+      top: 20%;
+      left: 10%;
+
+}
+
+.specific_star {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  color: #8FAAB9;
+  /*border-collapse: collapse;/*
+  /*width: 100%;*/
+}
+
+/* we have to restrict the application of the hover to the constellation class,
+   otherwise also the outer circle will be highlighted
+*/
+
+g.constellation {
+  /*pointer-events: bounding-box;*/
+  opacity: 0.7;
+}
+
+/*
+g.constellation:hover {
+  opacity: 1;
+}
+*/
